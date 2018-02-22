@@ -58,18 +58,9 @@ public class Test : MonoBehaviour {
 		//防御用の関数を呼び出す
 		//lastboss.Defence(3);
 
+		for (int i = 0; i <= 10; i++) {
 			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-			lastboss.Magic ();
-
+		}
 		//中ボス
 		//Boss midboss = new Boss ();
 		//midboss.Attack ();
